@@ -10,7 +10,7 @@ import { HeroService } from '../hero.service';
   styleUrls: ['./hero-search.component.css']
 })
 export class HeroSearchComponent implements OnInit {
-
+  //deploy
   heroes$: Observable<Hero[]>;
   private searchTerms = new Subject<string>();
   // Push a search term into the observable stream.
