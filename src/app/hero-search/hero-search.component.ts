@@ -13,7 +13,6 @@ export class HeroSearchComponent implements OnInit {
 
   heroes$: Observable<Hero[]>;
   private searchTerms = new Subject<string>();
-  //test update
   // Push a search term into the observable stream.
   search(term: string): void {
     this.searchTerms.next(term);
